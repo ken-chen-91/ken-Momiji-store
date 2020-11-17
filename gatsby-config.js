@@ -19,16 +19,16 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-nodejs`,
     // `gatsby-plugin-layout`,
-    // {
-    //   resolve: "gatsby-source-shopify",
-    //   options: {
-    //     shopName: process.env.SHOP_NAME,
-    //     accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
-    //     verbose: true,
-    //     apiVersion: "2020-07",
-    //     // includeCollections: ["shop", "content"],
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-shopify",
+      options: {
+        shopName: process.env.SHOP_NAME,
+        accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
+        verbose: true,
+        apiVersion: "2020-07",
+        // includeCollections: ["shop", "content"],
+      },
+    },
     {
       // You can have multiple instances of this plugin
       // to read source nodes from different locations on your
