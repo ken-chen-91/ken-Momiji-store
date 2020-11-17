@@ -11,7 +11,7 @@ export const productData = [
     alt: 'Sushi',
     name: 'California Roll',
     desc:
-      'A California roll is usually made with crab and avocado. If you purchase a California roll in a supermarket, you may get one with mayonnaise in it. In the California roll above, there is crab, tuna, and avocado.',
+      'A California roll is usually made with crab and avocado. In the California roll above, there is crab, tuna, and avocado. If you want custom California roll on your favor, please ask to waiter or Sushi Chef.',
     price: '$5.58',
     button: 'Add to Cart'
   },
