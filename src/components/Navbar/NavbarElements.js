@@ -49,5 +49,5 @@ export const Bars = styled(MdRestaurant)`
 export const Img = styled.img`
   max-width: 100%;
   max-height: 100%;
-  margin-top: 3rem;
+  margin-top: 10rem;
 `
