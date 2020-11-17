@@ -19,7 +19,7 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  justify-content: center;
+  /* justify-content: center; */
 
   @media screen and (max-width: 400px) {
     position: absolute;
