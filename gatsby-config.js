@@ -26,7 +26,7 @@ module.exports = {
         accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
         verbose: true,
         apiVersion: "2020-07",
-        includeCollections: ["shop", "content"],
+        // includeCollections: ["shop", "content"],
       },
     },
     {
