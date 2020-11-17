@@ -1,6 +1,6 @@
 // import fetch from ''
 import React, {useState, useEffect} from 'react'
-import Client from 'shopify-buy'
+// import Client from 'shopify-buy'
 
 import Context from '../../context/StoreContext'
 
